@@ -5,16 +5,22 @@ body{
 
 /* Header Section */
 
-.header, .footer{
+.header, .footer, .panel1{
     background-color: #1f2937;
     color:#e5e7eb;
+}
+
+.header, .footer, .panel1, .panel2, .panel3, .call-to-action{
+    padding-right: 100px;
+    padding-left: 180px;
 }
 
 .header{
     display:flex;
     gap:15px;
     font-size:18px;
-    padding: 10px 70px 15px 60px;
+    height:80px;
+    padding-top: 30px;
 }
 
 .logo{
@@ -28,4 +34,35 @@ body{
 }
 
 /* Panel 1 Section */
+.panel1{
+    display:flex;
+    border:1px solid greenyellow;
+    justify-content: space-between;
+    height:500px;
+    align-items:flex-start;
+    padding-top:50px;
+}
 
+
+.text{
+    height:auto;
+}
+.panel1 > *{
+    border:1px solid hotpink;
+    flex:1 1 100%;
+}
+
+.panel1 img{
+
+}
+
+.text1 h1{ /*hero primary text */
+    font-size:48px;
+    color: #f9faf8;
+    font-weight:700;
+}
+
+.text1 p{
+    font-size: 18px;
+    color: #e5e7eb;
+}
