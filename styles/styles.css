@@ -100,7 +100,7 @@ body{
 
 .panel2 h2{
     font-size:36px;
-    font-weight: 700;
+    font-weight: 1000;
 }
 
 .cards{
@@ -123,7 +123,6 @@ body{
     color:grey;
     text-align: justify;
     text-align-last: center;
-
 }
 
 .square{
@@ -138,4 +137,5 @@ body{
 
 .panel3{
     background-color: #e5e7eb;
+    height:40vh;
 }
