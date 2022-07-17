@@ -15,7 +15,7 @@ body{
 }
 
 .header, .footer, .panel1, .panel2, .panel3, .call-to-action{
-    padding-right: 5.5vw;
+    padding-right: 14.5vw;
     padding-left: 14.5vw;
 }
 
@@ -61,6 +61,13 @@ body{
     
 }
 
+.text1{
+    height:32vh;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
 .text1 h1{ /*hero primary text */
     font-size:48px;
     color: #f9faf8;
@@ -74,6 +81,7 @@ body{
 
 .signup{
     background-color: #3882f6;
+    align-self:baseline;
     color:white;
     text-decoration:none;
     font-weight:700;
