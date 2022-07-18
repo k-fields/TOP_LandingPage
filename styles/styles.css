@@ -103,29 +103,28 @@ body{
 
 .panel2{
     margin: 0 auto;
-    padding:0 auto 10%;
+    padding:0 auto;
     display:flex;
     flex-direction: column;
-    height:55vh;
-    border:2px solid greenyellow;
+    height:65vh;
     box-sizing: border-box;
     align-items: center;
     justify-content: center;
+    gap:10%;
     
 }
 
 .panel2 h2{
-    margin: 0 auto;
+    margin: 5% auto 0;
     font-size:36px;
     font-weight: 1000;
 }
 
 .cards{
+    margin:0 auto 10%;
     display:flex;
     align-items: center;
     justify-content: space-evenly;
-    margin-top:auto;    
-    border:1px solid green;
 }
 
 .card{
