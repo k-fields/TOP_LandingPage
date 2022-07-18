@@ -4,19 +4,17 @@ body{
     display:flex;
     flex-direction:column;
 }
-
-
+/* panels alignment */
+.header, .footer, .panel1, .panel2, .panel3, .call-to-action{
+    padding-right: 14.5vw;
+    padding-left: 14.5vw;
+}
 
 /* Header Section */
 
 .header, .footer, .panel1{
     background-color: #1f2937;
     color:#e5e7eb;
-}
-
-.header, .footer, .panel1, .panel2, .panel3, .call-to-action{
-    padding-right: 14.5vw;
-    padding-left: 14.5vw;
 }
 
 .header{
@@ -43,7 +41,6 @@ body{
     justify-content: space-between;
     height:80vh;
     align-items:center;
-    
 }
 
 .panel1 > *{
@@ -187,3 +184,20 @@ body{
     font-size: 130%;
 }
 
+/* CALL TO ACTION SECTION */
+.call-to-action{
+    display:flex;
+    align-items: center;
+    height: 45vh;
+}
+
+.cta-container{
+    margin:0 auto;
+    display:flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #3882f6;
+    height:55%;
+    width:100%;
+    color:white;
+}
