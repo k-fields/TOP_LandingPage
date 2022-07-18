@@ -197,7 +197,39 @@ body{
     align-items: center;
     justify-content: space-evenly;
     background-color: #3882f6;
+    border-radius:8px;
     height:55%;
     width:100%;
     color:white;
+}
+
+.cta-container a{
+    color: white;
+    text-decoration: none;
+    border:2px solid white;
+    border-radius: 5px;
+    padding: 0.7% 3%;
+    font-weight: 600;
+}
+
+.cta-text{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.cta-text > *{
+    margin:0;
+    padding:0;
+}
+
+.cta-text h3{
+    font-size:150%;
+    font-weight: 1000;
+}
+
+.cta-text p{
+    font-size:100%;
+    color:antiquewhite;
+    opacity: 80%;
 }
