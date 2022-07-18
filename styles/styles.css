@@ -157,6 +157,33 @@ body{
 /******************/
 
 .panel3{
+    margin: 0 auto;
     background-color: #e5e7eb;
-    height:40vh;
+    height:65vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
 }
+
+.panel3 .container{
+    width:70%;
+}
+
+.container{
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+}
+
+.container quote{
+    font-size: 180%;
+    font-style:italic;
+    color:#1f2937;
+}
+
+.container p{
+    align-self:flex-end;
+    font-weight:bold;
+    font-size: 130%;
+}
+
